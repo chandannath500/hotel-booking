@@ -1,0 +1,78 @@
+:root{
+    --PrimaryColor: rgb(3, 91, 131);
+    --SecondaryColor: rgb(74, 177, 228);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+    --whiteColor: hsl(0,0%,100%);
+    --newColor: rgb(249, 111, 47);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --gretText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240,240,240);
+    --cardBG: rgb(225, 225, 235);
+  }
+
+.footerRow:last-child {
+    
+    border-top: 1px solid #151212;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footerRow:last-child h3{
+    padding-bottom: 30px;
+}
+
+.footerRow:last-child .icons a{
+font-size: 23px;
+padding: 0 10px;
+color: var(--PrimaryColor);
+}
+
+.footerRow:last-child .icons .ig:hover{
+    color: rgb(230, 64, 120);
+    transition: all 0.2s ease-out;
+
+}
+.footerRow:last-child .icons .fb:hover{
+    color: rgb(38, 24, 239);
+    transition: all 0.2s ease-out;
+}
+.footerRow:last-child .icons .wp:hover{
+    color: rgb(11, 209, 64);
+    transition: all 0.2s ease-out;
+}
+.footerRow:last-child .icons .tw:hover{
+    color: rgb(36, 218, 246);
+    transition: all 0.2s ease-out;
+}
+.footerRow:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerRow:first-child ul {
+    list-style: none;
+}
+
+.footerRow:first-child ul li {
+    margin-bottom: 10px;
+}
+
+.footerRow:first-child ul li a {
+    color: #001e28;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+}
+
+.footerRow:first-child ul li a:hover {
+    /* text-decoration: underline; */
+    color: cadetblue;
+}
+
+@media (max-width:700px) {
+    .footerRow:first-child ul li a{
+        font-size: 12px;
+    }
+}

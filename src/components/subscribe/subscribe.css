@@ -1,0 +1,71 @@
+.subscribe {
+    margin-bottom: 100px;
+}
+:root{
+    --PrimaryColor: rgb(3, 91, 131);
+    --SecondaryColor: rgb(74, 177, 228);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+    --whiteColor: hsl(0,0%,100%);
+    --newColor: rgb(249, 111, 47);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --gretText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240,240,240);
+    --cardBG: rgb(225, 225, 235);
+  }
+.subscribeRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeTitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: var(--SecondaryColor);
+}
+
+.subscribeDesc {
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+}
+
+.subscribeInput input {
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #001e28;
+    width: 300px;
+    letter-spacing: 1.2px;
+    color: #001e28;
+}
+
+.subscribeInput input::placeholder {
+    letter-spacing: 1.2px;
+}
+
+.subscribeInput button {
+    height: 40px;
+    background-color: var(--PrimaryColor);
+    color: #ffffff;
+    padding: 0 15px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+}
+
+.subscribeInput button:hover {
+    background-color: var(--SecondaryColor);
+}
+
+@media (max-width:700px){
+    .subscribeInput input{
+        width: 120px;
+    }
+}

@@ -1,0 +1,55 @@
+.loginRow:nth-child(2) {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 90px 0 130px 0; */
+}
+
+:root{
+    --PrimaryColor: rgb(3, 91, 131);
+    --SecondaryColor: rgb(74, 177, 228);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+    --whiteColor: hsl(0,0%,100%);
+    --newColor: rgb(249, 111, 47);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --gretText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240,240,240);
+    --cardBG: rgb(225, 225, 235);
+  }
+.loginRow:nth-child(2) .loginCol {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginRow:nth-child(2) .loginCol input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 300px;
+    padding: 5px 15px;
+    letter-spacing: 1.4px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+/* .loginRow:nth-child(2) .loginCol button {
+    padding: .6rem 1.5rem;
+    background: var(--gradientColor);
+    font-size: 1rem;
+    border-radius: 3rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 10px; */
+/* } */
+
+/* .loginRow:nth-child(2) .loginCol button:hover {
+    color: #000000;
+    background-color: var();
+} */

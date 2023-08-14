@@ -1,0 +1,90 @@
+.hotelContainer {
+    margin: 50px 25px;
+}
+
+:root{
+    --PrimaryColor: rgb(3, 91, 131);
+    --SecondaryColor: rgb(74, 177, 228);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+    --whiteColor: hsl(0,0%,100%);
+    --newColor: rgb(249, 111, 47);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --gretText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240,240,240);
+    --cardBG: rgb(225, 225, 235);
+  }
+.hotelRow:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.hotelTitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: var(--SecondaryColor)
+}
+
+.hotelRow:first-child span {
+    color: #001e28;
+    font-size: 14px;
+    letter-spacing: 1.3px;
+}
+.hotelRow:first-child span{
+    color: rgb(1, 84, 84);
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.hotelRow:first-child h3{
+    margin-top: 14px;
+}
+
+.hotelBtn {
+    padding: 15px 25px;
+    margin-right: 20px ;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: var(--PrimaryColor);
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.hotelBtn:hover {
+    background-color: #000000;
+}
+
+.hotelRow:nth-child(2) {
+    margin-bottom: 40px;
+}
+
+.hotelRow:nth-child(3) {
+    margin-bottom: 100px;
+}
+
+.hotelSubTitle {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.hotelDesc {
+    letter-spacing: 1.3px;
+}
+
+.react-photo-album--photo {
+    transition: all 1s;
+    border-radius: 5px;
+}
+
+.react-photo-album--photo:hover {
+    transform: scale(1.05);
+} 

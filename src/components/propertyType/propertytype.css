@@ -1,0 +1,75 @@
+/* .ptypeContainer {
+}
+
+.ptypeTitle {
+    margin-bottom: 10px;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+
+.cityImage a {
+    text-decoration: none;
+    color: #001e28;
+} */
+
+.cityDesc1 {
+  letter-spacing: 1.3px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.pList {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 30px 30px 90px 30px;
+
+}
+
+.pListItem {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pListImg {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  transform: scale(1.05);
+}
+
+.pListTitles > h1 {
+  display: flex;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  color: var(--PrimaryColor);
+  text-transform: capitalize;
+}
+
+.pListTitles > h2 {
+  display: flex;
+  font-size: 14px;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 1.3px;
+}
+@media (max-width: 500px) {
+  .pList {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 30px;
+  }
+  .pListTitles > h1{
+    justify-content: center;
+  }
+  .pListTitles > h2{
+    justify-content: center;
+  }
+}

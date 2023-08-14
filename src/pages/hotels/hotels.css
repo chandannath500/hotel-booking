@@ -1,0 +1,105 @@
+.hotelsContainer {
+    padding: 50px 10px;
+}
+
+.hotelsRow {
+    display: flex;
+}
+
+:root{
+    --PrimaryColor: rgb(3, 91, 131);
+    --SecondaryColor: rgb(74, 177, 228);
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+    --whiteColor: hsl(0,0%,100%);
+    --newColor: rgb(249, 111, 47);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --gretText: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240,240,240);
+    --cardBG: rgb(225, 225, 235);
+  }
+.hotelsRow .hotelsCol:first-child {
+    flex: 1;
+}
+
+.hotelsRow .hotelsCol:last-child {
+    flex: 3;
+}
+.searchItem {
+    margin-bottom: 15px;
+}
+
+.searchHotels {
+    position: sticky;
+    background-color: var(--PrimaryColor);
+    height: max-content;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.searchItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchItem label {
+    color: #ffffff;
+    letter-spacing: 1.3px;
+}
+
+.searchOptionsItem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.searchItem input {
+    height: 40px;
+    padding: 0 20px;
+    color: #001e28;
+}
+
+.searchItem label:nth-child(2) {
+    height: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #001e28;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.searchItem .btnSearch {
+    padding: 10px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    background-color: #001e28;
+    color: #ffffff;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.searchItem .btnSearch:hover {
+    background-color: var(--SecondaryColor);
+}
+
+.searchItem:nth-child(2) {
+    position: relative;
+}
+
+.searchItem:nth-child(2) .searchDate {
+    position: absolute;
+    top: 58px;
+    left: -10px;
+    box-shadow: 0 0 10px var(--PrimaryColor);
+}
+@media screen and (max-width:500px){
+    .hotelsRow {
+        flex-direction:column-reverse;
+    }
+    
+}

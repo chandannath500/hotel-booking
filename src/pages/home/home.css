@@ -1,0 +1,16 @@
+.main-container {
+    padding: 100px 20px 5px 20px;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:700px) {
+    .main-container{
+        padding: 200px 3px 3px 3px ;
+    }
+}
+.homeTitle{
+    width: 100%;
+    font-size: 20px;
+    /* margin-left: 20px; */
+    text-align: center;
+  }
